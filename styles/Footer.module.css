@@ -1,0 +1,26 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.footer{
+    background-color: #191818;
+    padding: 8px 0;
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.footerInner{
+    display: flex;
+    justify-content: space-around;
+}
+.footerLogo{
+    color: #fff;
+    font-size: 35px;
+}
+.footerInner li{
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+}
